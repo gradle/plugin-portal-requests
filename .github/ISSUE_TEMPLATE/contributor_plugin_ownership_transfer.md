@@ -5,7 +5,9 @@ labels: 'a:ownership-transfer'
 ---
 
 <!--- 
-Please follow the instructions below. 
+Please follow the instructions below.
+
+Please open Gradle-related issues at https://github.com/gradle/gradle/issues
 
 Be mindful that we need to have the agreement of both parties to transfer the ownership.
 We also need to clearly assert the new owner is indeed related to the plugin in question.
