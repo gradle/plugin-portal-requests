@@ -5,7 +5,9 @@ labels: 'a:feature'
 ---
 
 <!--- 
-Please follow the instructions below. 
+Please follow the instructions below.
+
+Please open Gradle-related issues at https://github.com/gradle/gradle/issues
 -->
 
 <!--- Provide a brief summary of the issue in the title above -->
