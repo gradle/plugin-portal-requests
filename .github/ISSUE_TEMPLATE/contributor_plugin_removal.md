@@ -10,7 +10,7 @@ Please follow the instructions below.
 Please open Gradle-related issues at https://github.com/gradle/gradle/issues
 
 Be mindful that the request needs to come from the current owner.
-Keep in mind that plugins being used by builds will not be able to be delete.
+Keep in mind that plugins being used by builds will not be able to be deleted.
 -->
 
 <!--- Provide a brief summary of the issue in the title above -->
