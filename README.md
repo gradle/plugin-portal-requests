@@ -4,6 +4,7 @@
 ## Features and Bugs
 
 Please add your Gradle Plugin Portal bug reports or feature requests by opening an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose).
+This is also applicable to the [Gradle Plugin Publishing plugin](https://plugins.gradle.org/plugin/com.gradle.plugin-publish).
 
 ## Help with the plugin portal
 
