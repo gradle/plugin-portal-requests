@@ -1,6 +1,6 @@
 # Gradle Plugin Portal Requests
+Status: https://status.gradle.com/
 
-<a href="https://status.gradle.com"><img src="https://img.shields.io/badge/dynamic/json?url=https://z8s4n2jmrsl0.statuspage.io/api/v2/components.json&label=Plugin%20Portal&query=$.components[?(@.id==%22p4tbvzzkv494%22)].status&color=green&prefix=Status:%20"></a>
 ## Features and Bugs
 
 Please add your Gradle Plugin Portal bug reports or feature requests by opening an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose).
