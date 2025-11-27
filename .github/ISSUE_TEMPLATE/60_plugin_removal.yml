@@ -1,0 +1,37 @@
+name: Plugin Removal
+description: Remove a plugin from the portal
+labels: [ "a:removal" ]
+assignees: [ ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Be mindful that the request needs to come from the current owner, unless it violates Portal's terms of use.
+        Keep in mind that plugins being used by builds will not be able to be deleted.
+        
+        If you've stopped development on your plugin or have published it under a new name, please request description update via another template and we can mark the plugin deprecated and point users to the new plugin.
+  - type: input
+    id: plugin-id
+    attributes:
+      label: Plugin ID
+      description: |
+        Tell us the plugin id (and version if applicable) you wish to delete.
+    validations:
+      required: true
+  - type: input
+    id: current-owner
+    attributes:
+      label: Owner
+      description: |
+        Who is the current owner of the plugin? Link to the Gradle Plugin Portal profile.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        Why do you wish to delete the plugin?
+        Providing context helps us confirm the legitimacy of the removal request.
+    validations:
+      required: true

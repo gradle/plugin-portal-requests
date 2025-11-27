@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an idea for this project
+labels: [ "a:feature", "to-triage" ]
+assignees: [ ]
+body:
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Tell us how it should work
+    validations:
+      required: true
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior (optional)
+      description: Is there a way to achieve the same or similar outcome today?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        How has this issue affected you? What are you trying to accomplish? What other alternatives have you considered?
+        Providing context helps us come up with a solution that is most useful in the real world
+    validations:
+      required: true

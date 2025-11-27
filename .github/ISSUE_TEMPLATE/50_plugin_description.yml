@@ -1,0 +1,46 @@
+name: Plugin Description Update
+description: Update plugin description or metadata
+labels: [ "a:plugin-description" ]
+assignees: [ ]
+body:
+  - type: input
+    id: plugin-id
+    attributes:
+      label: Plugin ID
+      description: |
+        Tell us the plugin ID you wish to update.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: |
+        Version of the plugin
+    validations:
+      required: false
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Are you the owner of the plugin?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: Description of changes
+      description: |
+        What changes would you like to make to the plugin description, tags or other metadata?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        Additional context about the changes you are requesting.
+    validations:
+      required: false

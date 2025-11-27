@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask for help
+    url: https://plugins.gradle.org/docs/get-help
+    about: If you need help with publishing or have a usage question, please reach our community instead of creating an issue.
+  - name: Change profile details
+    url: https://plugins.gradle.org/docs/get-help
+    about: To change your profile details, please reach out via email instead of creating an issue.
