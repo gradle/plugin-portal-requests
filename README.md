@@ -8,28 +8,8 @@ This is also applicable to the [Gradle Plugin Publishing plugin](https://plugins
 
 ## Help with the plugin portal
 
-### Deleting a plugin or version
+Please open an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose) or [contact us](https://plugins.gradle.org/docs/get-help) via email if you want to edit plugin description, remove it or its version, transfer ownership, etc.
 
-If you've published a version of your plugin to the plugin portal and you need to remove it, you have 7 days from the time the plugin is published to delete it. After that, you will need to open an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose). Please let us know which plugin and version you would like to delete and how we can verify that you're the owner of the plugin.
+NOTE: If you've published a version of your plugin to the plugin portal, and you need to remove it, you have 7 days from the time the plugin is published to delete it. After that, you will need to open an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose).
 
-We really want to avoid deleting existing plugins when possible since this may break existing builds. If you've stopped development on your plugin or have published it under a new name, please open an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose) and we can mark the plugin deprecated and point users to the new plugin.
-
-### Transferring ownership
-
-If you've handed development of a plugin to someone else, we can transfer that plugin to the new account.
-
-Open an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose) and provide:
-- A link to the plugin to be transferred
-- Who you would like to transfer the plugin to (user name or link to their user profile)
-
-You may need to provide proof you're the current owner. 
-
-### Changing links, tags or description
-
-To change the links, tags or description of your plugin, open an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose) with a link to the plugin and what changes you would like to see.
-
-### Changing account information
-
-If you need to delete your user account or change the email associated with it, please open an [issue](https://github.com/gradle/plugin-portal-requests/issues/new/choose).
-
-If you'd like to keep your email private, please email us at plugin-portal-support@gradle.com. 
+Please [contact us](https://plugins.gradle.org/docs/get-help) via email if you need help with updating your profile information.

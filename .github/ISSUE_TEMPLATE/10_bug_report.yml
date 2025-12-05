@@ -1,0 +1,45 @@
+name: Bug Report
+description: Create a report to help us improve
+labels: [ "a:bug", "to-triage" ]
+assignees: [ ]
+body:
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: Tell us what happens
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Tell us what should happen
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: |
+        How has this issue affected you? What are you trying to accomplish?
+    validations:
+      required: false
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        For Portal issues, please provide detailed steps to reproduce the problem.
+        For plugin issues, provide a [minimal, self-contained example](https://en.wikipedia.org/wiki/Minimal_reproducible_example) project demonstrating the problem as a GitHub repository or an attached archive.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Your Environment (optional)
+      description: |
+        Include as many relevant details about the environment you experienced the bug in. 
+        For plugin issues, please include: the plugin version, Gradle version, JDK version, and (optionally) a Build Scan.
+    validations:
+      required: false

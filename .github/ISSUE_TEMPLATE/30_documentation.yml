@@ -1,0 +1,31 @@
+name: Documentation
+description: Report a problem with our documentation
+labels: [ "a:documentation", "to-triage" ]
+assignees: [ ]
+body:
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue type
+      options:
+        - Wrong or misleading information
+        - Missing information
+        - Styling or Accessibility
+        - Typo
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: |
+        Please describe the problem as concisely as possible.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page with the problem
+      description: Please, provide a link to the relevant page, if applicable
+    validations:
+      required: true
